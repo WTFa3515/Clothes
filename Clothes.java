@@ -20,6 +20,12 @@ public class Clothes
 		this.color = color;
 	}
 	
+	public Clothes(String size, String color, int price)
+	{
+		this(size, color);
+		this.price = price;
+	}
+	
 	public Sting getSize()
 	{	return this.size;	}
 	
