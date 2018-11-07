@@ -26,9 +26,15 @@ public class Clothes
 	public Sting getColor()
 	{	return this.color;	}
 	
-	public setSize(String size)
+	public void setSize(String size)
 	{	this.size = size;	}
 	
-	public setColor(String color)
+	public void setColor(String color)
 	{	this.color = color;	}
+	
+	public int getPrice()
+	{	return this.color;	}
+	
+	public void setPrice(int price)
+	{	this.price = price;	}
 }
