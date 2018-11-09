@@ -1,4 +1,4 @@
-Package Clothes;
+package Clothes;
 
 public class Clothes
 {
@@ -23,13 +23,13 @@ public class Clothes
 	public Clothes(String size, String color, int price)
 	{
 		this(size, color);
-		this.price = price;
+		setPrice(price);
 	}
 	
-	public Sting getSize()
+	public String getSize()
 	{	return this.size;	}
 	
-	public Sting getColor()
+	public String getColor()
 	{	return this.color;	}
 	
 	public void setSize(String size)
@@ -38,7 +38,7 @@ public class Clothes
 	public void setColor(String color)
 	{	this.color = color;	}
 	
-	public int getPrice()
+	public String getPrice()
 	{	return this.color;	}
 	
 	public void setPrice(int price)
