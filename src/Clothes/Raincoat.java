@@ -1,5 +1,7 @@
 package Clothes;
 
+import function.Antiwind;
+
 public class Raincoat extends Clothes implements Antiwind {
 
 	public Raincoat() {
