@@ -22,6 +22,10 @@ public class Demo {
 		System.out.printf("jeans size is %s", jeans.getSize());
 		System.out.printf("\njeans color is %s", jeans.getColor());
 		System.out.printf("\njeans price is %d", jeans.getPrice());
+		Clothes raincoat = new Clothes();
+		System.out.print("Please input Pants size : ");
+		size = scanner.nextLine();
+		raincoat.setSize(size);
 	}
 
 }
